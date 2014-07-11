@@ -1,4 +1,6 @@
  var app = express();
+
+ app.set('port', 80);
  
 /* serves main page */
 app.get('/', function(req, res) {
