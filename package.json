@@ -1,0 +1,22 @@
+{
+  "name": "strayegg-money-planner",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0",
+    "gulp": "^3.8.5",
+    "gulp-concat": "^2.2.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-cache": "^0.2.0",
+    "pouchdb": "^2.2.3"
+  }
+}
