@@ -10,3 +10,10 @@ App.IndexRoute = Ember.Route.extend({
 		return ['red', 'yellow', 'blue'];
 	}
 });
+
+App.NewRoute = Ember.Route.extend({
+	model: function() {
+		var db = new PouchDB('moneystuff');
+		return db;
+	}
+});

@@ -11,6 +11,6 @@ So thought I'd use this as a chance to mess around with Ember, PouchDB, and all 
 more reproducable version of that spreadsheet but in a format that can be used by anyone.
 
 In an ideal world the server will just need to feed up some JS as I really don't want to be storing
-financial data anywhere server-side.
+financial data anywhere server-side. 
 
 This will be available on [strayegg.com](http://www.strayegg.com)
